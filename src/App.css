@@ -1,0 +1,58 @@
+.main {
+  background-image: url("./images/background1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.search-input {
+  height: 30px;
+  padding: 10px;
+  text-transform: capitalize;
+  border-width: 0.5px;
+  background-color: transparent;
+  color: white;
+}
+.img {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+
+.info {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.extra-info {
+  background: rgba(225, 225, 225, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(225, 225, 225, 0.18);
+  color: white;
+  margin-top:50px ;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  text-transform: capitalize;
+}
+
+@media (max-width: 480px) {
+  .main {
+    height: 100vh;
+    margin: 0;
+  }
+}
